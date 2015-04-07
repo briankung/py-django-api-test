@@ -7,5 +7,5 @@ urlpatterns = [
     # url(r'^blog/', include('blog.urls')),
 
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^test/', 'mysite.views.test', name='test'),
+    url(r'^time/', 'views.current_datetime', name='time'),
 ]
